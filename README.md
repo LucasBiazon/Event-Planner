@@ -1,5 +1,6 @@
 # Event Planner
-
+[Front-end]()
+#
 The Event Planner is a web application that allows users to organize and manage events, including creating, editing, and RSVPing to events. Users can securely authenticate using OAuth with popular providers.
 
 # 💻 RF
@@ -26,4 +27,57 @@ The Event Planner is a web application that allows users to organize and manage 
   - [ ] Monitoramento e Auditoria: Desenvolva recursos de monitoramento e auditoria para rastrear e registrar atividades relacionadas à autenticação e autorização, incluindo tentativas de login, concessões de permissões de acesso e alterações nos tokens.
   - [ ] Testes de Segurança: Realize testes de segurança abrangentes, incluindo testes de penetração e análise de vulnerabilidades, para garantir que sua implementação OAuth esteja protegida contra ameaças de segurança conhecidas.
         
-# 
+# Installation and Configuration
+1.Clone the repository to your local machine:
+```#!/bin/bash
+ git clone https://github.com/LucasBiazon/Event-Planner_OAuth.git
+```
+2. Install project dependencies:
+```
+cd social-media-aggregator
+npm install
+```
+
+3. Configure OAuth credentials for authentication providers in the `config.js` file.
+
+4. Install Fastify, Prisma, and MongoDB:
+
+- **Fastify:** Install Fastify using npm:
+
+  ```
+  npm install fastify
+  ```
+
+- **Prisma:** Install Prisma CLI globally using npm:
+
+  ```
+  npm install prisma --save-dev
+  ```
+
+- **MongoDB:** Install MongoDB on your system. You can download and install MongoDB from the official website: [MongoDB Download](https://www.mongodb.com/try/download/community)
+
+5. Configure Prisma to connect to your MongoDB database:
+
+- Initialize Prisma with MongoDB provider:
+
+  ```
+  npx prisma init
+  ```
+
+- Update the `schema.prisma` file with your MongoDB connection details.
+
+6. Start the server:
+```
+npm start
+```
+
+## Technologies Used
+
+- Fastify
+- OAuth 2.0
+- Prisma
+- MongoDB
+
+
+
+
