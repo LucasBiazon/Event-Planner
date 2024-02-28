@@ -1,6 +1,6 @@
 # Event Planner
-[Front-end]()
-#
+
+<hr>
 The Event Planner is a web application that allows users to organize and manage events, including creating, editing, and RSVPing to events. Users can securely authenticate using OAuth with popular providers.
 
 # 💻 RF
