@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.10.2",
+    "fastify": "^4.26.1",
+    "fastify-cli": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.22",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "prisma": "^5.10.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn  ./src/app.ts"
+  },
+  "name": "event-planner",
+  "description": "<hr> The Event Planner is a web application that allows users to organize and manage events, including creating, editing, and RSVPing to events. Users can securely authenticate using OAuth with popular providers.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
