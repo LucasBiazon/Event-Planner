@@ -40,7 +40,7 @@ npm install
 
 3. Configure OAuth credentials for authentication providers in the `config.js` file.
 
-4. Install Fastify, Prisma, and MongoDB:
+4. Install Fastify, Prism
 
 - **Fastify:** Install Fastify using npm:
 
@@ -55,9 +55,7 @@ npm install
   ```
 
 
-5. Configure Prisma to connect to your MongoDB database:
 
-- Initialize Prisma with MongoDB provider:
 
   ```
   npx prisma init
