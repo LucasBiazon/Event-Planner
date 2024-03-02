@@ -54,7 +54,6 @@ npm install
   npm install prisma --save-dev
   ```
 
-- **MongoDB:** Install MongoDB on your system. You can download and install MongoDB from the official website: [MongoDB Download](https://www.mongodb.com/try/download/community)
 
 5. Configure Prisma to connect to your MongoDB database:
 
